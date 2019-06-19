@@ -1,0 +1,18 @@
+<aside>
+    		<section class="main-aside-avatar">
+    			<img src="images/tx.jpg"  alt="">
+    		</section>
+    		<ul>
+    			<li><a href="/">博客首页</a></li>
+    			<li><a href="/edit">我要写</a></li>
+    			<li><a href="friends">我的动态</a></li>
+    			<li><a href="/about">博友互动</a></li>
+   
+    			<% if (user) { %>
+    			<li><a href="/logout">登出</a></li>
+    			<% } else { %>
+    			<li><a href="/login">登录</a></li>
+    			<% } %>
+    		</ul>
+    		
+ </aside>
